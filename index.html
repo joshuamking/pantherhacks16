@@ -28,11 +28,22 @@
         <span class="subtitle">MATHEMATICS</span>
       </span>
     </div><br>
-    <div id="login-button">
-       <img src="images/fb-logo.png"/>
-       <span>Login with Facebook</span>
+    <div id="login-container">
+        <div id="login-button" onclick="document.getElementById('login-button').style.display='none'; document.getElementById('login-welcome').style.display='inline-block'; document.getElementById('subscribe').style.display='block';">
+           <img src="images/fb-logo.png"/>
+           <span>Login with Facebook</span>
+        </div>
+        <div id="login-welcome">
+            Hello, Daniel
+        </div>
     </div>
     <div id="subscribe">
+        <span class="heading">Subscribe to email alerts</span><br>
+        <input type="email" placeholder="example@domain.com"/>
+        <button id="subscribe-submit" onclick="document.getElementById('subscribe').style.display='none';">SUBSCRIBE</button><br>
+        <a href="javascript:void(0);" id="subscribe-cancel" onclick="document.getElementById('subscribe').style.display='none';">Not now</a>
+        <div id="subscribe-close" onclick="document.getElementById('subscribe').style.display='none';">
+        </div>
     </div>
     <script>
         var map;
