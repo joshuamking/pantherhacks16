@@ -1,0 +1,54 @@
+body
+{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#title
+{
+  display:inline-flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  width:70vw;
+  font-weight:bold;
+  cursor:pointer;
+}
+.letter
+{
+  display:inline-block;
+  text-align: center;
+  flex-grow:1;
+  color:rgb(210,210,210);
+  transition:color ease-out 0.3s;
+}
+.big-letter
+{
+  display:block;
+  font-size:150pt;
+}
+.subtitle
+{
+  display:block;
+  font-size:16pt;
+  margin-top:-20pt;
+}
+.letter#s:hover
+{
+  color:#fe4a49;
+  font-size:16pt;
+}
+.letter#t:hover
+{
+  color:#c7e88b;
+}
+.letter#e:hover
+{
+  color:#08b2e3;
+}
+.letter#a:hover
+{
+  color:#ffcc00;
+}
+.letter#m:hover
+{
+  color:#ff9f1c;
+}
