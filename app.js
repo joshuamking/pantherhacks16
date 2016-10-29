@@ -27,13 +27,14 @@ function showPosition(position) {
 }
 
 window.onload = function () {
-    Array.prototype.forEach.call(document.getElementsByClassName("letter"), function(e) {
-        e.addEventListener("click", function(e) {
-            Array.prototype.forEach.call(document.getElementsByClassName('letter'), function(letter) {
-                if(letter.getElementsByClassName("big-letter")[0].innerHTML != e.target.getElementsByClassName("big-letter")[0].innerHTML) {
-                    letter.style.top='100vw';
+    Array.prototype.forEach.call(document.getElementsByClassName("letter"), function(l) {
+        l.addEventListener("click", function(e) {
+                console.log(e.target);
+            for(var i=0; i<document.getElementsByClassName("letter").length; i++) {
+                if(document.getElementsByClassName("letter")[i].getElementsByClassName("big-letter")[0].innerHTML != e.target.getElementsByClassName("big-letter")[0].innerHTML) {
+                    document.getElementsByClassName("letter")[i].style.top="100vw";
                 }
-            });
+            }
         });
     });
 };
