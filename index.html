@@ -50,14 +50,21 @@
     <script>
         function initMap() {
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
+                navigator.geolocation.getCurrentPosition(showPosition, showPosition({
+                                                                                        coords: {
+                                                                                            latitude: 40.7127405,
+                                                                                            longitude: -74.0059379
+                                                                                        }
+                                                                                    }));
+
             } else {
-                showPosition({ position:{
-                    coords:{
-                        latitude: 40.7128,
-                        longitude: 74.0059
-                    }
-                } })
+                showPosition({
+                                 coords: {
+                                     latitude: 40.7127405,
+                                     longitude: -74.0059379
+                                 }
+                             }
+                );
             }
         }
 
