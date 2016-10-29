@@ -52,3 +52,13 @@ body
 {
   color:#B388EB;
 }
+#login-button
+{
+    display:inline-block;
+    background-color:rgb(59,89,152);
+}
+#login-button img
+{
+    width:32px;
+    height:32px;
+}
