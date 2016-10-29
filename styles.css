@@ -7,6 +7,7 @@ body
 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  overflow:hidden;
 }
 #title
 {
@@ -19,12 +20,14 @@ body
 }
 .letter
 {
+    position:relative;
+    top:0;
   margin-top:20vh;
   display    :inline-block;
   text-align : center;
   flex-grow  :1;
 	color    : #607D8B;
-  transition :color ease-out 0.3s, transform ease-out 0.3s;
+  transition :color ease-out 0.3s, transform ease-out 0.3s, top ease-out 0.7s;
 }
 
 #map {

@@ -27,5 +27,13 @@ function showPosition(position) {
 }
 
 window.onload = function () {
-
+    Array.prototype.forEach.call(document.getElementsByClassName("letter"), function(e) {
+        e.addEventListener("click", function(e) {
+            Array.prototype.forEach.call(document.getElementsByClassName('letter'), function(letter) {
+                if(letter.getElementsByClassName("big-letter")[0].innerHTML != e.target.getElementsByClassName("big-letter")[0].innerHTML) {
+                    letter.style.top='100vw';
+                }
+            });
+        });
+    });
 };
