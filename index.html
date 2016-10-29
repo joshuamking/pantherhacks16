@@ -26,11 +26,23 @@
       <span class="letter" id="m">
         <span class="big-letter">M</span>
         <span class="subtitle">MATHEMATICS</span>
-      </span><br>
-      <div id="login-button">
-          <img src="images/fb-logo.png"/>
-          <span>Login with Facebook</span>
-      </div>
+      </span>
+    </div><br>
+    <div id="login-button">
+       <img src="images/fb-logo.png"/>
+       <span>Login with Facebook</span>
     </div>
+    <div id="subscribe">
+    </div>
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -34.397, lng: 150.644},
+              zoom: 8
+          });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM-5O9yoPDAgGBdtqDaI1KrP3u7HijuRY&callback=initMap" async defer></script>
 </body>
 </html>
