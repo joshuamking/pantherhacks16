@@ -34,6 +34,9 @@ window.onload = function () {
                 if(document.getElementsByClassName("letter")[i].getElementsByClassName("big-letter")[0].innerHTML != e.target.getElementsByClassName("big-letter")[0].innerHTML) {
                     document.getElementsByClassName("letter")[i].style.top="100vw";
                 }
+                else {
+                    e.target.style.top='-20px';
+                }
             }
         });
     });
