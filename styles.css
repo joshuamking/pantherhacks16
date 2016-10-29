@@ -19,14 +19,7 @@ body
 }
 .letter
 {
-<<<<<<< HEAD
-  display:inline-block;
-  text-align: center;
   margin-top:20vh;
-  flex-grow:1;
-  color:rgb(210,210,210);
-  transition:color ease-out 0.3s;
-=======
   display    :inline-block;
   text-align : center;
   flex-grow  :1;
@@ -42,7 +35,6 @@ body
 
 	-ms-filter : blur(10px);
 	filter     : blur(10px);
->>>>>>> a1056a021977a7a344d4af53214b349f511fd4e1
 }
 
 .big-letter
