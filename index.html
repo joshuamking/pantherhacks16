@@ -47,35 +47,6 @@
         <div id="subscribe-close" onclick="document.getElementById('subscribe').style.display='none';">
         </div>
     </div>
-    <script>
-        function initMap() {
-            if (navigator.geolocation) {
-                navigator.geolocation
-                         .getCurrentPosition(showPosition,
-                                             showPosition({
-                                                              coords: {
-                                                                  latitude: 40.7127405,
-                                                                  longitude: -74.0059379
-                                                              }
-                                                          }));
-            } else {
-                showPosition({
-                                 coords: {
-                                     latitude: 40.7127405,
-                                     longitude: -74.0059379
-                                 }
-                             }
-                );
-            }
-        }
-
-        function showPosition(position) {
-            new google.maps.Map(document.getElementById('map'), {
-                center: { lat: position.coords.latitude, lng: position.coords.longitude},
-                zoom: 12
-            });
-        }
-    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM-5O9yoPDAgGBdtqDaI1KrP3u7HijuRY&callback=initMap" async defer></script>
 </body>
 </html>
