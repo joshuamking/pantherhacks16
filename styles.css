@@ -1,3 +1,8 @@
+* {
+	padding : 0;
+	margin  : 0;
+}
+
 body
 {
   text-align: center;
@@ -14,12 +19,23 @@ body
 }
 .letter
 {
-  display:inline-block;
-  text-align: center;
-  flex-grow:1;
-  color:rgb(210,210,210);
-  transition:color ease-out 0.3s;
+  display    :inline-block;
+  text-align : center;
+  flex-grow  :1;
+	color    : #607D8B;
+  transition :color ease-out 0.3s;
 }
+
+#map {
+	position   : absolute;
+	z-index    : -1;
+	width      : 100vw;
+	height     : 100vh;
+
+	-ms-filter : blur(10px);
+	filter     : blur(10px);
+}
+
 .big-letter
 {
   display:block;
