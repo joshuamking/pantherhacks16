@@ -95,6 +95,7 @@ body
 #subscribe
 {
     position:absolute;
+    display:none;
     top:30vh;
     height:40vh;
     margin-left:30vw;
