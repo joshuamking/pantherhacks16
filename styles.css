@@ -16,6 +16,7 @@ body
 {
   display:inline-block;
   text-align: center;
+  margin-top:20vh;
   flex-grow:1;
   color:rgb(210,210,210);
   transition:color ease-out 0.3s;
@@ -55,10 +56,34 @@ body
 #login-button
 {
     display:inline-block;
+    cursor:pointer;
     background-color:rgb(59,89,152);
+    padding:8px 20px 8px 8px;
+    border-radius:5px;
+    margin-top:50px;
 }
 #login-button img
 {
+    display:inline-block;
     width:32px;
     height:32px;
+    vertical-align: middle;
+}
+#login-button span
+{
+    display:inline-block;
+    margin-left:20px;
+    vertical-align: middle;
+    color:white;
+}
+#subscribe
+{
+    position:absolute;
+    top:30vh;
+    height:40vh;
+    margin-left:30vw;
+    width:40vw;
+    background-color:rgb(245,245,245);
+    border:1px solid rgb(191,191,191);
+    border-radius:8px;
 }
