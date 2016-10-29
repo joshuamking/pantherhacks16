@@ -1,28 +1,27 @@
-events = [
-	{
-		"startDate": "2016-11-03T18:00:00-04:00",
-		"endDate": "2016-11-03T22:00:00-04:00",
-		"name": "2016 Atlanta Mobile Awards",
-		"url": "https://www.eventbrite.com/e/2016-atlanta-mobile-awards-tickets-27138145925",
-		"location": {
-			"address": {
-				"addressCountry": "US",
-				"addressLocality": "Atlanta",
-				"addressRegion": "GA",
-				"streetAddress": "1374 West Peachtree Street Northwest, Atlanta, GA 30309",
-				"postalCode": "30309",
-				"type": "PostalAddress"
-			}, "type": "Place", "name": "The Loft"
-		},
-		"organizer": {
-			"url": "http://www.eventbrite.com/o/atlanta-mobile-marketing-organization-8365452107",
-			"description": "Founded in 2010, The Atlanta Mobile Marketing Organization (AMMO) is a nonprofit mobile trade organization with more than 500 members, representing Atlanta’s brands, agencies, device manufacturers, retailers, software providers and service providers focused on the potential of marketing via mobile channels.  Monthly meetings take place in the offices of Atlanta’s top marketing and advertising agencies.  Join us. ",
-			"Type": "Organization",
-			"name": "Atlanta Mobile Marketing Organization"
-		},
-		"type": "Event",
-		"description": "2016 Atlanta Mobile Awards will recognize the best in mobile marketing and development from throughout the Atlanta area.  Join us of this important yearly event for the city of Atlanta."
+events = [ {
+	"startDate": "2016-11-03T18:00:00-04:00",
+	"endDate": "2016-11-03T22:00:00-04:00",
+	"name": "2016 Atlanta Mobile Awards",
+	"url": "https://www.eventbrite.com/e/2016-atlanta-mobile-awards-tickets-27138145925",
+	"location": {
+		"address": {
+			"addressCountry": "US",
+			"addressLocality": "Atlanta",
+			"addressRegion": "GA",
+			"streetAddress": "1374 West Peachtree Street Northwest, Atlanta, GA 30309",
+			"postalCode": "30309",
+			"type": "PostalAddress"
+		}, "type": "Place", "name": "The Loft", "coords": { "lat": 33.792085, "lng": -84.388001 }
 	},
+	"organizer": {
+		"url": "http://www.eventbrite.com/o/atlanta-mobile-marketing-organization-8365452107",
+		"description": "Founded in 2010, The Atlanta Mobile Marketing Organization (AMMO) is a nonprofit mobile trade organization with more than 500 members, representing Atlanta€™s brands, agencies, device manufacturers, retailers, software providers and service providers focused on the potential of marketing via mobile channels.  Monthly meetings take place in the offices of Atlanta€™s top marketing and advertising agencies.  Join us. ",
+		"Type": "Organization",
+		"name": "Atlanta Mobile Marketing Organization"
+	},
+	"type": "Event",
+	"description": "2016 Atlanta Mobile Awards will recognize the best in mobile marketing and development from throughout the Atlanta area.  Join us of this important yearly event for the city of Atlanta."
+},
 	{
 		"startDate": "2016-11-01T11:00:00-04:00",
 		"endDate": "2016-11-01T13:00:00-04:00",
@@ -36,7 +35,10 @@ events = [
 				"streetAddress": "1132 Techwood Drive NW, Atlanta, GA 30318",
 				"postalCode": "30318",
 				"type": "PostalAddress"
-			}, "type": "Place", "name": "Courtyard Atlanta Midtown/Georgia Tech"
+			},
+			"type": "Place",
+			"name": "Courtyard Atlanta Midtown/Georgia Tech",
+			"coords": { "lat": 33.785455, "lng": -84.39266 }
 		},
 		"organizer": {
 			"url": "http://www.eventbrite.com/o/converus-8695477224",
@@ -59,7 +61,7 @@ events = [
 				"streetAddress": "384 Northyards Boulevard Northwest #190, Atlanta, GA 30313",
 				"postalCode": "30313",
 				"type": "PostalAddress"
-			}, "type": "Place", "name": "The Gathering Spot"
+			}, "type": "Place", "name": "The Gathering Spot", "coords": { "lat": 33.767272, "lng": -84.400185 }
 		},
 		"organizer": {
 			"url": "http://www.eventbrite.com/o/valor-ventures-4713836483",
@@ -75,7 +77,7 @@ events = [
 		"endDate": "2016-11-03T18:30:00-04:00",
 		"name": "Georgia Regional User Group - Fall 2016 Meeting",
 		"url": "https://www.eventbrite.com/e/georgia-regional-user-group-fall-2016-meeting-tickets-27409159534",
-		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F25221261%2F830…l.jpg?w=1000&rect=0%2C408%2C4928%2C2464&s=1dbde0262382f6901ff56273e64d1eb5",
+		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F25221261%2F830€¦l.jpg?w=1000&rect=0%2C408%2C4928%2C2464&s=1dbde0262382f6901ff56273e64d1eb5",
 		"offers": {
 			"priceCurrency": "USD",
 			"url": "https://www.eventbrite.com/e/georgia-regional-user-group-fall-2016-meeting-tickets-27409159534",
@@ -92,7 +94,10 @@ events = [
 				"streetAddress": "3101 Cobb Parkway SE Suite 104, Atlanta, GA 30339",
 				"postalCode": "30339",
 				"type": "PostalAddress"
-			}, "type": "Place", "name": "Main Event Entertainment - Atlanta"
+			},
+			"type": "Place",
+			"name": "Main Event Entertainment - Atlanta",
+			"coords": { "lat": 33.878995, "lng": -84.456457 }
 		},
 		"context": "http://schema.org",
 		"organizer": {
@@ -109,7 +114,7 @@ events = [
 		"endDate": "2016-11-01T15:00:00-04:00",
 		"name": "Patent Search Classes",
 		"url": "https://www.eventbrite.com/e/patent-search-classes-tickets-27073014114",
-		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F23220797%2F685…nal.jpg?w=1000&rect=0%2C0%2C2160%2C1080&s=682d457582b1b30f02ad1cf0321cb104",
+		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F23220797%2F685€¦nal.jpg?w=1000&rect=0%2C0%2C2160%2C1080&s=682d457582b1b30f02ad1cf0321cb104",
 		"offers": {
 			"priceCurrency": "USD",
 			"url": "https://www.eventbrite.com/e/patent-search-classes-tickets-27073014114",
@@ -126,7 +131,7 @@ events = [
 				"streetAddress": "Homer Rice Center, West Building, Ground Floor 266 4th Street NW, Atlanta, GA 30332-0900",
 				"postalCode": "30332-0900",
 				"type": "PostalAddress"
-			}, "type": "Place", "name": "Georgia Tech Library"
+			}, "type": "Place", "name": "Georgia Tech Library", "coords": { "lat": 33.77492, "lng": -84.396415 }
 		},
 		"context": "http://schema.org",
 		"organizer": {
@@ -143,7 +148,7 @@ events = [
 		"endDate": "2017-02-18T12:00:00-05:00",
 		"name": "2017 AMBER Developers Meeting",
 		"url": "https://www.eventbrite.com/e/2017-amber-developers-meeting-tickets-28343046816",
-		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F24714559%2F189…nal.jpg?w=1000&rect=113%2C0%2C920%2C460&s=9c7eea51bf63c89ad3a327ea1412116a",
+		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F24714559%2F189€¦nal.jpg?w=1000&rect=113%2C0%2C920%2C460&s=9c7eea51bf63c89ad3a327ea1412116a",
 		"offers": {
 			"priceCurrency": "USD",
 			"url": "https://www.eventbrite.com/e/2017-amber-developers-meeting-tickets-28343046816",
@@ -160,7 +165,7 @@ events = [
 				"streetAddress": "295 E Dougherty St, Athens, GA 30601",
 				"postalCode": "30601",
 				"type": "PostalAddress"
-			}, "type": "Place", "name": "Graduate Athens"
+			}, "type": "Place", "name": "Graduate Athens", "coords": { "lat": 33.963805, "lng": -83.374642 }
 		},
 		"context": "http://schema.org",
 		"organizer": {
@@ -191,7 +196,7 @@ events = [
 				"streetAddress": "25 Park Place, Room 2150, Georgia State University",
 				"postalCode": "",
 				"type": "PostalAddress"
-			}, "type": "Place", "name": ""
+			}, "type": "Place", "name": "", "coords": { "lat": 33.754711, "lng": -84.388068 }
 		},
 		"organizer": {
 			"url": "http://www.eventbrite.com/o/women-in-physics-at-gsu-11982216468",
@@ -206,7 +211,7 @@ events = [
 		"endDate": "2017-03-26T17:00:00-04:00",
 		"name": "Black Art & Science Expo",
 		"url": "https://www.eventbrite.com/e/black-art-science-expo-tickets-26995414010",
-		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F25403115%2F173…inal.jpg?w=1000&rect=89%2C0%2C622%2C311&s=8508aa264bb0d6d862ec67db0c30c50b",
+		"image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F25403115%2F173€¦inal.jpg?w=1000&rect=89%2C0%2C622%2C311&s=8508aa264bb0d6d862ec67db0c30c50b",
 		"offers": {
 			"priceCurrency": "USD",
 			"url": "https://www.eventbrite.com/e/black-art-science-expo-tickets-26995414010",
@@ -223,7 +228,7 @@ events = [
 				"streetAddress": "265 Peachtree Center Ave NE, Atlanta, GA 30303",
 				"postalCode": "30303",
 				"type": "PostalAddress"
-			}, "type": "Place", "name": "Marriott Marquis"
+			}, "type": "Place", "name": "Marriott Marquis", "coords": { "lat": 33.761585, "lng": -84.385614 }
 		},
 		"context": "http://schema.org",
 		"organizer": {
@@ -234,5 +239,4 @@ events = [
 		},
 		"type": "Event",
 		"description": "The Black Art & Science Expo (B.A.S.E.) is a 3-day convention and cultural exposition held in Atlanta, GA that will focus on the African diaspora's contribution to the arts, science, and technology fields. This event is for people of all ages, especially students, teachers, parents, and mentors interested in Science, Technology, Engineering, Arts, and Mathematics (STEAM). The event will feature a career expo, a job & college fair, a science fair, art galleries, workshops, special panel discussions, technology seminars, startup workshops, elevator pitch competitions, networking events, mixers, luncheons, and a host of other exciting events. \nRegister to stay at the Atlanta Marriott Marquis Hotel (265 Peachtree Center Ave NE, Atlanta, GA) and Have Access to All Events\nItinerary of Events:\n\nFriday (Mar. 24th) 6pm-9pm- Networking Mixer & Reception Dinner\nSaturday (Mar. 25th) 10am-5pm- Conference & Expo \nSaturday (Mar. 25th) 6pm-8:30pm- Guided Bus Tour of Atlanta Black Science History\nSaturday (Mar. 25th) 10pm-1am- Cocktail Mixer & Special Music Performance (Ages 21+)\nSunday (Mar. 26th) 7am-11am- Sunday Brunch & Closing Ceremonies\n\n*All events included with hotel reservation. Please contact us for discounted rate.\nFor more information about Business Opportunities, Sponsorship Packages, Large Group Tickets, or General Questions, please contact: basexpo@outlook.com"
-	}
-];
+	} ];
