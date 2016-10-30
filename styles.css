@@ -49,6 +49,14 @@ body
     pointer-events: none;
 }
 
+#steam_resources_btn_wrapper {
+    float    : right;
+    padding  : 20px;
+    display  : block;
+    position : absolute;
+    right    : 0;
+}
+
 #map {
 	position   : absolute;
 	z-index    : -1;
