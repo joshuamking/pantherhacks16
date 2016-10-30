@@ -89,5 +89,6 @@ window.onload = function () {
         document.getElementById("login-container").style.top="0";
         document.getElementById("back-button").style.display="none";
         document.getElementById("map").style.zIndex="-1";
+		initMap();
     });
 };
