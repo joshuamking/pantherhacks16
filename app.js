@@ -65,7 +65,7 @@ window.onload = function () {
                     document.getElementsByClassName("letter")[i].style.top="100vw";
                 }
                 else {
-                    e.target.style.top='-52vh';
+                    e.target.style.top=-e.target.getElementsByClassName("subtitle")[0].offsetTop-e.target.offsetTop+"px";
                    
                     e.target.style.left=parseFloat(window.innerWidth/2)-parseFloat(e.target.offsetLeft) - parseFloat(window.getComputedStyle(e.target).width)/2+ "px";
                 }
@@ -75,6 +75,7 @@ window.onload = function () {
             document.getElementById("login-container").style.top=-parseInt(document.getElementById("login-container").offsetTop)+10+"px";
             
             document.getElementById("back-button").style.display="block";
+            document.getElementById("map").style.zIndex="initial";
         });
     });
     
@@ -87,5 +88,6 @@ window.onload = function () {
         document.getElementById("login-container").style.left="0";
         document.getElementById("login-container").style.top="0";
         document.getElementById("back-button").style.display="none";
+        document.getElementById("map").style.zIndex="-1";
     });
 };
