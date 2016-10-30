@@ -70,6 +70,22 @@ window.onload = function () {
                     e.target.style.left=parseFloat(window.innerWidth/2)-parseFloat(e.target.offsetLeft) - parseFloat(window.getComputedStyle(e.target).width)/2+ "px";
                 }
             }
+            document.getElementById("map").style.filter="blur(0px)";
+            document.getElementById("login-container").style.left=parseInt(window.innerWidth)/2 - parseInt(window.getComputedStyle(document.getElementById("login-container")).width)/2-10+"px";
+            document.getElementById("login-container").style.top=-parseInt(document.getElementById("login-container").offsetTop)+10+"px";
+            
+            document.getElementById("back-button").style.display="block";
         });
+    });
+    
+    document.getElementById("back-button").addEventListener("click", function(b) {
+        Array.prototype.forEach.call(document.getElementsByClassName("letter"), function(l) {
+            l.style.top="0";
+            l.style.left="0";
+        });
+        document.getElementById("map").style.filter="blur(3px)";
+        document.getElementById("login-container").style.left="0";
+        document.getElementById("login-container").style.top="0";
+        document.getElementById("back-button").style.display="none";
     });
 };
