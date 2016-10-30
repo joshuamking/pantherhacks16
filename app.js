@@ -65,7 +65,9 @@ window.onload = function () {
                     document.getElementsByClassName("letter")[i].style.top="100vw";
                 }
                 else {
-                    e.target.style.top='-20px';
+                    e.target.style.top='-52vh';
+                   
+                    e.target.style.left=parseFloat(window.innerWidth/2)-parseFloat(e.target.offsetLeft) - parseFloat(window.getComputedStyle(e.target).width)/2+ "px";
                 }
             }
         });
